@@ -1,4 +1,4 @@
-package com.sahibinden.model;
+package com.build.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class WeatherUrl {
+public class Country {
     
     @JsonProperty("value")
     private String value;

@@ -1,6 +1,6 @@
-package com.sahibinden.service;
+package com.build.service;
 
-import com.sahibinden.model.*;
+import com.build.model.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

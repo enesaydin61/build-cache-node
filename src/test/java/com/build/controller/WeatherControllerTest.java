@@ -1,8 +1,7 @@
-package com.sahibinden.controller;
+package com.build.controller;
 
-import com.sahibinden.dto.WeatherSummaryDto;
-import com.sahibinden.model.*;
-import com.sahibinden.service.WeatherService;
+import com.build.model.*;
+import com.build.service.WeatherService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

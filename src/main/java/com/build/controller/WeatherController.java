@@ -1,10 +1,10 @@
-package com.sahibinden.controller;
+package com.build.controller;
 
-import com.sahibinden.dto.WeatherSummaryDto;
-import com.sahibinden.model.CurrentCondition;
-import com.sahibinden.model.NearestArea;
-import com.sahibinden.model.WeatherResponse;
-import com.sahibinden.service.WeatherService;
+import com.build.dto.WeatherSummaryDto;
+import com.build.model.CurrentCondition;
+import com.build.model.NearestArea;
+import com.build.model.WeatherResponse;
+import com.build.service.WeatherService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

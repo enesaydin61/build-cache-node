@@ -1,7 +1,7 @@
-package com.sahibinden;
+package com.build;
 
-import com.sahibinden.controller.WeatherController;
-import com.sahibinden.service.WeatherService;
+import com.build.controller.WeatherController;
+import com.build.service.WeatherService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

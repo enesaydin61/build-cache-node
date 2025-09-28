@@ -1,4 +1,4 @@
-package com.sahibinden.config;
+package com.build.config;
 
 import java.util.Collections;
 import org.springframework.context.annotation.Bean;

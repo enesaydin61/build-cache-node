@@ -1,6 +1,6 @@
-package com.sahibinden.service;
+package com.build.service;
 
-import com.sahibinden.model.WeatherResponse;
+import com.build.model.WeatherResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.sahibinden.model;
+package com.build.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
@@ -9,19 +9,16 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CurrentCondition {
+public class HourlyWeather {
     
-    @JsonProperty("temp_C")
+    @JsonProperty("time")
+    private String time;
+    
+    @JsonProperty("tempC")
     private String tempC;
     
-    @JsonProperty("temp_F")
+    @JsonProperty("tempF")
     private String tempF;
-    
-    @JsonProperty("weatherCode")
-    private String weatherCode;
-    
-    @JsonProperty("weatherDesc")
-    private List<WeatherDescription> weatherDesc;
     
     @JsonProperty("windspeedMiles")
     private String windspeedMiles;
@@ -34,6 +31,12 @@ public class CurrentCondition {
     
     @JsonProperty("winddir16Point")
     private String winddir16Point;
+    
+    @JsonProperty("weatherCode")
+    private String weatherCode;
+    
+    @JsonProperty("weatherDesc")
+    private List<WeatherDescription> weatherDesc;
     
     @JsonProperty("precipMM")
     private String precipMM;
@@ -50,9 +53,36 @@ public class CurrentCondition {
     @JsonProperty("cloudcover")
     private String cloudcover;
     
+    @JsonProperty("HeatIndexC")
+    private String heatIndexC;
+    
+    @JsonProperty("HeatIndexF")
+    private String heatIndexF;
+    
+    @JsonProperty("DewPointC")
+    private String dewPointC;
+    
+    @JsonProperty("DewPointF")
+    private String dewPointF;
+    
+    @JsonProperty("WindChillC")
+    private String windChillC;
+    
+    @JsonProperty("WindChillF")
+    private String windChillF;
+    
+    @JsonProperty("WindGustMiles")
+    private String windGustMiles;
+    
+    @JsonProperty("WindGustKmph")
+    private String windGustKmph;
+    
     @JsonProperty("FeelsLikeC")
     private String feelsLikeC;
     
     @JsonProperty("FeelsLikeF")
     private String feelsLikeF;
+    
+    @JsonProperty("uvIndex")
+    private String uvIndex;
 }

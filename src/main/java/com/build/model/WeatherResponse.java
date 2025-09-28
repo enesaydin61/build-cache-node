@@ -1,4 +1,4 @@
-package com.sahibinden.model;
+package com.build.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
