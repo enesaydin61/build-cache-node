@@ -1,0 +1,61 @@
+# === Build / Gradle ===
+/build/
+/.gradle/
+/out/
+/!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle wrapper logs
+gradle-app.setting
+gradle.log
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+.factorypath
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === VS Code ===
+.vscode/
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Test / Coverage / Reports ===
+/build/reports/
+/build/test-results/
+/build/jacoco/
+/coverage/
+
+# === Dependency caches / local maven repo (if used) ===
+/.gradle/cache/
+/.mvn/
+repository/
+
+# === Logs ===
+*.log
+hs_err_pid*
+
+# === Environment / Secrets ===
+*.env
+.env.*
+secret.properties
+local.properties
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.swp
+*~
+# temporary files created by editors
+*.tmp
