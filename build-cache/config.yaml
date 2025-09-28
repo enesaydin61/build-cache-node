@@ -1,0 +1,18 @@
+version: 5
+cache:
+  accessControl:
+    users:
+      build.cache.user:
+        level: readwrite
+        password: roon1ca2dn+UoUqRs3XF1D+8Kga2SqQxpy+NGIADTog=:Bp9X2umAebhCqVbkHQgedkh1kaKtZfp6RQcXwasZdn8=
+        note: ""
+    anonymousLevel: readwrite
+  freeSpaceBufferSize: 1024
+  maxEntryAgeInHours: 168
+  targetSize:
+    type: fixed
+    size: 10000
+  maxArtifactSize: 200
+registration: null
+uiAccess:
+  type: open
