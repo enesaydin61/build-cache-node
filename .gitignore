@@ -1,0 +1,62 @@
+# === Build / Gradle ===
+/build/
+/out/
+/.gradle/          # Gradle cache; repo'da olmasın
+
+# keep the wrapper jar in repo (tipik): allow wrapper dir but not generated stuff
+!/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+
+# === Gradle scripts & wrappers (don't ignore these!) ===
+!/gradlew
+!/gradlew.bat
+!/build.gradle.kts
+!/settings.gradle.kts
+!/gradle.properties
+
+# === IDE ===
+# IntelliJ IDEA
+/.idea/
+/*.iml
+# if you DO want to track some .idea files, add exceptions:
+# !/.idea/codeStyles/
+# !/.idea/inspectionProfiles/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# === Java artifacts ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Test / Coverage / Reports ===
+/build/reports/
+/build/test-results/
+/build/jacoco/
+/coverage/
+
+# === Local maven repo / caches ===
+/.mvn/
+repository/
+
+# === Logs / OS files / misc ===
+*.log
+hs_err_pid*
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.tmp
+
+# === Secrets / local properties ===
+local.properties
+*.env
+.env.*
+secret.properties
